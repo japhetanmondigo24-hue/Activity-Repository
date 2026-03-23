@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Pizzariva </title>
+</head>
+<body>
+
+<h1 style=> PIZZARIVA </h1>
+<p>welcome to the pizza world, where pizzas are worth the time</p>
+
+
+
+<form action="/submit" method="post">
+    <h2>--PERSONAL DETAILS--</h2>
+    <label for="name"> Enter your name </label>
+    <input type="text" id="name" name="name" minlength="15" maxlength="60" required>
+
+   <label for="email"> Enter your email:</label>
+   <input type="email" id="email" name="email" placeholder="example is ****@.gamil.com" required>
+
+   <label for="Telephone"> Enter your Telephone:</label>
+   <input type="tel" id="Telephone" name="Telephone" pattern="[0-9]{7-60}" required>
+
+    <label for="Cellphone"> Enter your phone number: </label>
+    <input type="num"  id="Cellphone" name="Cellphone" placeholder="0123456789" required>
+
+    
+
+    
+
+   <P>Please select pizza size </p>
+   <input type="radio" id="small" name="size" value="small" >
+   <label for="small"> small</label>
+   <input type="radio" id="medium" name="size" value="medium" >
+   <label for="medium"> medium</label>
+   <input type="radio" id="large" name="size" value="large" >
+   <label for="large"> large</label>
+
+   <p>Please select crust type</P>
+   <input type="radio" id="small" name="crust" value="small" >
+   <label for=""> small</label>
+   <input type="radio" id="medium" name="crust" value="medium" >
+   <label for="medium"> medium</label>
+   <input type="radio" id="large" name="crust" value="large" >
+   <label for="large"> large</label>
+
+    <p>Please select sauce</P>
+     
+    <label for="sauce"> Please select sauce</label>
+    <select>
+    <option for="ketchup"> ketchup </option>
+    <option for="mayonnaise"> Mayonnaise </option>
+    </select>
+    
+
+     <p>Please select toppings</P>
+     
+    <p> Payment Method </p>
+     <input type="radio" id="" name="" value="">
+     <label for="Cash on Delivery"> Cash on Delivery</label>
+
+     <input type="Online Payment" name="Payment Method" > Online Payment
+
+     <P> Price Reference Table </P>
+     <table>
+       <tr>
+             <th> Products </th>
+              <th> Price</th>
+
+        </tr>
+        <tr>
+              <td>   </td>
+              <td>   </td>
+
+
+        </tr>
+      
+     </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+</body>
+
+
+
